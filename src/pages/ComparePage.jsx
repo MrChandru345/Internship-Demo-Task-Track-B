@@ -54,8 +54,8 @@ function ComparePage() {
 
   return (
     <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-      <div className="mb-6 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm shadow-slate-200/80 lg:grid lg:grid-cols-[0.85fr_1.15fr]">
-        <div className="relative min-h-56 overflow-hidden bg-indigo-950">
+      <div className="mb-6 rounded-2xl border border-slate-200 bg-white shadow-sm shadow-slate-200/80 lg:grid lg:grid-cols-[0.85fr_1.15fr]">
+        <div className="relative min-h-56 overflow-hidden rounded-t-2xl bg-indigo-950 lg:rounded-l-2xl lg:rounded-tr-none">
           <img src={campusHero} alt="Campus comparison" className="h-full w-full object-cover opacity-80" />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-indigo-950/20 to-transparent" />
           <div className="absolute bottom-5 left-5 right-5">

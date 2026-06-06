@@ -105,13 +105,13 @@ function Home() {
             <p className="inline-flex rounded-full border border-white/20 bg-white/10 px-3 py-1 text-sm font-bold uppercase tracking-wide text-indigo-50 shadow-sm backdrop-blur">
               College discovery
             </p>
-            <h1 className="mt-5 text-4xl font-extrabold leading-tight sm:text-6xl">
+            <h1 className="mt-5 text-3xl font-extrabold leading-tight sm:text-5xl lg:text-6xl">
               Find, compare, and save colleges that fit your goals.
             </h1>
             <p className="mt-5 max-w-2xl text-base font-medium leading-8 text-indigo-50 sm:text-lg">
               Explore fees, ratings, placements, courses, recruiters, and student reviews from one clean dashboard.
             </p>
-            <div className="mt-7 flex flex-wrap gap-3">
+            <div className="mt-7 flex flex-col gap-3 min-[420px]:flex-row min-[420px]:flex-wrap">
               <a
                 href="#college-results"
                 className="inline-flex h-11 items-center justify-center rounded-md bg-white px-5 text-sm font-extrabold text-indigo-700 shadow-xl shadow-indigo-950/20 transition hover:-translate-y-0.5 hover:bg-indigo-50"

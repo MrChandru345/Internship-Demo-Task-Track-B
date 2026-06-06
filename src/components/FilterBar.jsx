@@ -1,6 +1,9 @@
-import { Search } from 'lucide-react';
+import { useState } from 'react';
+import { Search, SlidersHorizontal } from 'lucide-react';
 
 function FilterBar({ filters, onFilterChange, sortBy, onSortChange, states, types, tags, resultCount }) {
+  const [showMobileFilters, setShowMobileFilters] = useState(false);
+
   const updateFilter = (key, value) => {
     onFilterChange({ ...filters, [key]: value });
   };
@@ -9,18 +12,32 @@ function FilterBar({ filters, onFilterChange, sortBy, onSortChange, states, type
     <section className="border-b border-slate-200 bg-white/95 backdrop-blur">
       <div className="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-4 rounded-xl border border-slate-200 bg-white p-4 shadow-sm shadow-slate-200/70">
-          <div className="relative">
-            <Search className="pointer-events-none absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-slate-400" />
-            <input
-              value={filters.search}
-              onChange={(event) => updateFilter('search', event.target.value)}
-              type="search"
-              placeholder="Search colleges by name"
-              className="h-12 w-full rounded-lg border border-slate-300 bg-white pl-10 pr-4 text-sm font-medium text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-100"
-            />
+          <div className="flex gap-3">
+            <div className="relative flex-1">
+              <Search className="pointer-events-none absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-slate-400" />
+              <input
+                value={filters.search}
+                onChange={(event) => updateFilter('search', event.target.value)}
+                type="search"
+                placeholder="Search colleges by name"
+                className="h-12 w-full rounded-lg border border-slate-300 bg-white pl-10 pr-4 text-sm font-medium text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-100"
+              />
+            </div>
+            <button
+              type="button"
+              onClick={() => setShowMobileFilters((prev) => !prev)}
+              className={`flex h-12 w-12 flex-none items-center justify-center rounded-lg border transition sm:hidden ${
+                showMobileFilters
+                  ? 'border-indigo-500 bg-indigo-50 text-indigo-600'
+                  : 'border-slate-300 bg-white text-slate-600 hover:bg-slate-50'
+              }`}
+              aria-label="Toggle filters"
+            >
+              <SlidersHorizontal className="h-5 w-5" />
+            </button>
           </div>
 
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          <div className={`gap-3 sm:grid sm:grid-cols-2 lg:grid-cols-4 ${showMobileFilters ? 'grid' : 'hidden'}`}>
             <label className="flex flex-col gap-1.5 text-xs font-bold uppercase tracking-wide text-slate-500">
               State
               <select
