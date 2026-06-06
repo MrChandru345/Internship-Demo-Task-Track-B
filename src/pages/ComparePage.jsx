@@ -3,6 +3,7 @@ import { useSearchParams } from 'react-router-dom';
 import { Search } from 'lucide-react';
 import collegesData from '../data/colleges.json';
 import CompareTable from '../components/CompareTable';
+import campusHero from '../assets/campus-hero.png';
 
 const colleges = collegesData.colleges;
 
@@ -53,16 +54,24 @@ function ComparePage() {
 
   return (
     <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-      <div className="mb-6 flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
+      <div className="mb-6 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm shadow-slate-200/80 lg:grid lg:grid-cols-[0.85fr_1.15fr]">
+        <div className="relative min-h-56 overflow-hidden bg-indigo-950">
+          <img src={campusHero} alt="Campus comparison" className="h-full w-full object-cover opacity-80" />
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-indigo-950/20 to-transparent" />
+          <div className="absolute bottom-5 left-5 right-5">
+            <p className="text-sm font-bold uppercase tracking-wide text-indigo-100">Compare colleges</p>
+            <h1 className="mt-2 text-3xl font-extrabold text-white">Side-by-side decision table</h1>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-5 p-5 lg:p-6">
         <div>
-          <p className="text-sm font-bold uppercase tracking-wide text-indigo-600">Compare colleges</p>
-          <h1 className="mt-2 text-3xl font-extrabold text-slate-950">Side-by-side decision table</h1>
-          <p className="mt-2 max-w-2xl text-sm font-medium leading-6 text-slate-600">
+          <p className="max-w-2xl text-sm font-medium leading-6 text-slate-600">
             Add up to three colleges and scan the best value in each measurable row.
           </p>
         </div>
 
-        <div className="relative w-full max-w-lg">
+        <div className="relative w-full">
           <label className="mb-1.5 block text-xs font-bold uppercase tracking-wide text-slate-500">
             Select college
           </label>
@@ -104,6 +113,7 @@ function ComparePage() {
               )}
             </div>
           )}
+        </div>
         </div>
       </div>
 

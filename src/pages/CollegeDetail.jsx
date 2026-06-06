@@ -4,6 +4,7 @@ import { ArrowLeft, Heart, MapPin } from 'lucide-react';
 import collegesData from '../data/colleges.json';
 import StarRating from '../components/StarRating';
 import { useSavedColleges } from '../context/SavedContext';
+import campusHero from '../assets/campus-hero.png';
 
 const colleges = collegesData.colleges;
 const tabs = ['Overview', 'Courses', 'Placements', 'Reviews'];
@@ -35,16 +36,18 @@ function CollegeDetail() {
 
   return (
     <main>
-      <section className="bg-slate-950 text-white">
-        <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <section className="relative overflow-hidden bg-slate-950 text-white">
+        <img src={campusHero} alt="" className="absolute inset-0 h-full w-full object-cover opacity-55" />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-indigo-950/80 to-slate-950/30" />
+        <div className="relative mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
           <Link to="/" className="inline-flex items-center gap-2 text-sm font-bold text-indigo-100 hover:text-white">
             <ArrowLeft className="h-4 w-4" />
             Back to colleges
           </Link>
 
-          <div className="mt-8 grid gap-6 lg:grid-cols-[1fr_auto] lg:items-end">
+          <div className="mt-8 grid gap-6 lg:grid-cols-[1fr_auto] lg:items-end animate-fade-slide">
             <div className="flex flex-col gap-5 sm:flex-row sm:items-center">
-              <div className="grid h-24 w-24 place-items-center rounded-lg border border-white/15 bg-white p-3">
+              <div className="grid h-24 w-24 place-items-center rounded-xl border border-white/70 bg-white p-3 shadow-2xl shadow-slate-950/20">
                 <img src={college.image} alt={`${college.name} logo`} className="max-h-full max-w-full object-contain" />
               </div>
               <div>
@@ -102,12 +105,19 @@ function CollegeDetail() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 animate-rise">
         {activeTab === 'Overview' && (
           <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr]">
-            <div>
+            <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm shadow-slate-200/80">
               <h2 className="text-2xl font-extrabold text-slate-950">Overview</h2>
               <p className="mt-4 text-base font-medium leading-8 text-slate-600">{college.overview}</p>
+              <div className="mt-6 flex flex-wrap gap-2">
+                {college.tags.map((tag) => (
+                  <span key={tag} className="rounded-full bg-indigo-50 px-3 py-1 text-xs font-bold text-indigo-700">
+                    {tag}
+                  </span>
+                ))}
+              </div>
             </div>
             <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-1">
               {[
@@ -115,7 +125,7 @@ function CollegeDetail() {
                 ['Hostel', college.hostelAvailable ? 'Available' : 'Not available'],
                 ['Scholarship', college.scholarshipAvailable ? 'Available' : 'Not available'],
               ].map(([label, value]) => (
-                <div key={label} className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
+                <div key={label} className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm shadow-slate-200/70 transition hover:-translate-y-0.5 hover:shadow-md">
                   <p className="text-xs font-bold uppercase tracking-wide text-slate-500">{label}</p>
                   <p className="mt-2 text-xl font-extrabold text-slate-950">{value}</p>
                 </div>
@@ -125,7 +135,7 @@ function CollegeDetail() {
         )}
 
         {activeTab === 'Courses' && (
-          <div className="overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm">
+          <div className="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm shadow-slate-200/80">
             <div className="overflow-x-auto">
               <table className="min-w-full text-left text-sm">
                 <thead className="bg-slate-50 text-xs uppercase tracking-wide text-slate-500">
@@ -153,19 +163,19 @@ function CollegeDetail() {
 
         {activeTab === 'Placements' && (
           <div className="grid gap-5 lg:grid-cols-3">
-            <div className="rounded-lg border border-slate-200 bg-white p-5 shadow-sm">
+            <div className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm shadow-slate-200/80 transition hover:-translate-y-0.5">
               <p className="text-xs font-bold uppercase tracking-wide text-slate-500">Avg Package</p>
               <p className="mt-2 text-2xl font-extrabold text-slate-950">
                 {currency.format(college.placements.averagePackage)}
               </p>
             </div>
-            <div className="rounded-lg border border-slate-200 bg-white p-5 shadow-sm">
+            <div className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm shadow-slate-200/80 transition hover:-translate-y-0.5">
               <p className="text-xs font-bold uppercase tracking-wide text-slate-500">Highest Package</p>
               <p className="mt-2 text-2xl font-extrabold text-slate-950">
                 {currency.format(college.placements.highestPackage)}
               </p>
             </div>
-            <div className="rounded-lg border border-slate-200 bg-white p-5 shadow-sm">
+            <div className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm shadow-slate-200/80 transition hover:-translate-y-0.5">
               <p className="text-xs font-bold uppercase tracking-wide text-slate-500">Placement Rate</p>
               <p className="mt-2 text-2xl font-extrabold text-slate-950">{college.placements.placementRate}%</p>
               <div className="mt-4 h-3 overflow-hidden rounded-full bg-slate-100">
@@ -175,7 +185,7 @@ function CollegeDetail() {
                 />
               </div>
             </div>
-            <div className="rounded-lg border border-slate-200 bg-white p-5 shadow-sm lg:col-span-3">
+            <div className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm shadow-slate-200/80 lg:col-span-3">
               <p className="text-xs font-bold uppercase tracking-wide text-slate-500">Top Recruiters</p>
               <div className="mt-4 flex flex-wrap gap-2">
                 {college.placements.topRecruiters.map((recruiter) => (
@@ -191,7 +201,7 @@ function CollegeDetail() {
         {activeTab === 'Reviews' && (
           <div className="grid gap-4 lg:grid-cols-2">
             {college.reviews.map((review) => (
-              <article key={review.id} className="rounded-lg border border-slate-200 bg-white p-5 shadow-sm">
+              <article key={review.id} className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm shadow-slate-200/80 transition hover:-translate-y-0.5">
                 <div className="flex items-start justify-between gap-4">
                   <div>
                     <h2 className="font-extrabold text-slate-950">{review.author}</h2>

@@ -6,9 +6,9 @@ function FilterBar({ filters, onFilterChange, sortBy, onSortChange, states, type
   };
 
   return (
-    <section className="border-b border-slate-200 bg-white">
+    <section className="border-b border-slate-200 bg-white/95 backdrop-blur">
       <div className="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 rounded-xl border border-slate-200 bg-white p-4 shadow-sm shadow-slate-200/70">
           <div className="relative">
             <Search className="pointer-events-none absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-slate-400" />
             <input

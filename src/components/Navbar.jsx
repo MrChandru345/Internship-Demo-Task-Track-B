@@ -11,10 +11,10 @@ function Navbar() {
   const { savedCount } = useSavedColleges();
 
   return (
-    <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-white/70 bg-white/85 shadow-sm shadow-slate-200/50 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <NavLink to="/" className="flex items-center gap-2 text-lg font-extrabold text-slate-950">
-          <span className="grid h-9 w-9 place-items-center rounded-md bg-indigo-600 text-white">
+          <span className="grid h-9 w-9 place-items-center rounded-md bg-gradient-to-br from-indigo-600 to-blue-500 text-white shadow-lg shadow-indigo-500/25">
             <GraduationCap className="h-5 w-5" />
           </span>
           CollegeFind

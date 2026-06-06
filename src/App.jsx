@@ -10,7 +10,7 @@ function App() {
   return (
     <SavedProvider>
       <BrowserRouter>
-        <div className="min-h-screen bg-slate-50 text-slate-900">
+        <div className="min-h-screen bg-[radial-gradient(circle_at_top_left,#e0e7ff_0,#f8fafc_34rem)] text-slate-900">
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
