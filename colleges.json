@@ -1,0 +1,1138 @@
+{
+  "colleges": [
+    {
+      "id": 1,
+      "name": "Indian Institute of Technology Bombay",
+      "shortName": "IIT Bombay",
+      "location": "Mumbai, Maharashtra",
+      "state": "Maharashtra",
+      "type": "Government",
+      "rating": 4.8,
+      "totalFees": 900000,
+      "annualFees": 225000,
+      "established": 1958,
+      "ranking": {
+        "nirf": 3,
+        "qs_world": 149
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/IIT_Bombay_Logo.svg/200px-IIT_Bombay_Logo.svg.png",
+      "overview": "IIT Bombay is one of India's premier engineering institutions, known for world-class research, innovation, and industry connections. Located on the Powai campus in Mumbai, it offers a vibrant academic and campus life.",
+      "courses": [
+        { "name": "B.Tech Computer Science", "duration": "4 years", "fees": 900000, "seats": 120 },
+        { "name": "B.Tech Electrical Engineering", "duration": "4 years", "fees": 900000, "seats": 60 },
+        { "name": "B.Tech Mechanical Engineering", "duration": "4 years", "fees": 900000, "seats": 60 },
+        { "name": "M.Tech Computer Science", "duration": "2 years", "fees": 400000, "seats": 40 },
+        { "name": "MBA", "duration": "2 years", "fees": 1100000, "seats": 60 }
+      ],
+      "placements": {
+        "averagePackage": 2500000,
+        "highestPackage": 25000000,
+        "placementRate": 98,
+        "topRecruiters": ["Google", "Microsoft", "Goldman Sachs", "McKinsey", "Amazon"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Rahul M.", "rating": 5, "comment": "Best engineering college in India. Excellent faculty and research facilities.", "year": 2023 },
+        { "id": 2, "author": "Priya S.", "rating": 5, "comment": "Incredible campus life and placement opportunities. Worth every bit of JEE preparation.", "year": 2023 },
+        { "id": 3, "author": "Arjun K.", "rating": 4, "comment": "Academically rigorous. The peer group here is unmatched.", "year": 2022 }
+      ],
+      "tags": ["Engineering", "Research", "IIT", "Top Ranked"],
+      "examAccepted": ["JEE Advanced"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 2,
+      "name": "Indian Institute of Technology Delhi",
+      "shortName": "IIT Delhi",
+      "location": "New Delhi, Delhi",
+      "state": "Delhi",
+      "type": "Government",
+      "rating": 4.8,
+      "totalFees": 850000,
+      "annualFees": 212500,
+      "established": 1961,
+      "ranking": {
+        "nirf": 2,
+        "qs_world": 197
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/IIT_Delhi_logo.svg/200px-IIT_Delhi_logo.svg.png",
+      "overview": "IIT Delhi is India's top-ranked technical university located in the heart of the nation's capital. It is renowned for cutting-edge research and strong industry linkages.",
+      "courses": [
+        { "name": "B.Tech Computer Science", "duration": "4 years", "fees": 850000, "seats": 100 },
+        { "name": "B.Tech Electronics", "duration": "4 years", "fees": 850000, "seats": 80 },
+        { "name": "B.Tech Chemical Engineering", "duration": "4 years", "fees": 850000, "seats": 60 },
+        { "name": "M.Tech Data Science", "duration": "2 years", "fees": 380000, "seats": 30 }
+      ],
+      "placements": {
+        "averagePackage": 2200000,
+        "highestPackage": 22000000,
+        "placementRate": 97,
+        "topRecruiters": ["Apple", "Microsoft", "Deloitte", "ISRO", "Adobe"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Sneha T.", "rating": 5, "comment": "Top-notch professors and amazing research culture.", "year": 2023 },
+        { "id": 2, "author": "Karan L.", "rating": 4, "comment": "Delhi location is a big advantage for networking. Campus is world-class.", "year": 2022 }
+      ],
+      "tags": ["Engineering", "IIT", "Research", "Top Ranked"],
+      "examAccepted": ["JEE Advanced"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 3,
+      "name": "Indian Institute of Technology Madras",
+      "shortName": "IIT Madras",
+      "location": "Chennai, Tamil Nadu",
+      "state": "Tamil Nadu",
+      "type": "Government",
+      "rating": 4.9,
+      "totalFees": 820000,
+      "annualFees": 205000,
+      "established": 1959,
+      "ranking": {
+        "nirf": 1,
+        "qs_world": 227
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/IIT_Madras_Logo.svg/200px-IIT_Madras_Logo.svg.png",
+      "overview": "IIT Madras is India's #1 ranked institution as per NIRF. Known for its lush green campus, strong alumni network, and pioneering research contributions.",
+      "courses": [
+        { "name": "B.Tech Computer Science", "duration": "4 years", "fees": 820000, "seats": 110 },
+        { "name": "B.Tech Aerospace Engineering", "duration": "4 years", "fees": 820000, "seats": 40 },
+        { "name": "B.Tech Civil Engineering", "duration": "4 years", "fees": 820000, "seats": 60 },
+        { "name": "MBA", "duration": "2 years", "fees": 950000, "seats": 60 }
+      ],
+      "placements": {
+        "averagePackage": 2300000,
+        "highestPackage": 23000000,
+        "placementRate": 98,
+        "topRecruiters": ["Qualcomm", "Texas Instruments", "Google", "Flipkart", "DRDO"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Divya R.", "rating": 5, "comment": "The campus atmosphere is unbeatable. Faculty is highly research-oriented.", "year": 2023 },
+        { "id": 2, "author": "Vikram N.", "rating": 5, "comment": "NIRF rank 1 says it all. Placement record is phenomenal.", "year": 2022 }
+      ],
+      "tags": ["Engineering", "IIT", "NIRF #1", "Research"],
+      "examAccepted": ["JEE Advanced"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 4,
+      "name": "Indian Institute of Technology Kharagpur",
+      "shortName": "IIT KGP",
+      "location": "Kharagpur, West Bengal",
+      "state": "West Bengal",
+      "type": "Government",
+      "rating": 4.7,
+      "totalFees": 780000,
+      "annualFees": 195000,
+      "established": 1951,
+      "ranking": {
+        "nirf": 5,
+        "qs_world": 271
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/IIT_Kharagpur_Logo.svg",
+      "overview": "The oldest IIT in India, IIT Kharagpur has the largest campus and the most diverse academic programs. Known for its strong alumni network and residential campus experience.",
+      "courses": [
+        { "name": "B.Tech Computer Science", "duration": "4 years", "fees": 780000, "seats": 130 },
+        { "name": "B.Tech Mining Engineering", "duration": "4 years", "fees": 780000, "seats": 40 },
+        { "name": "B.Tech Architecture", "duration": "5 years", "fees": 975000, "seats": 35 },
+        { "name": "Integrated M.Tech", "duration": "5 years", "fees": 975000, "seats": 50 }
+      ],
+      "placements": {
+        "averagePackage": 1900000,
+        "highestPackage": 20000000,
+        "placementRate": 95,
+        "topRecruiters": ["Tata Steel", "Microsoft", "Amazon", "BCG", "Intel"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Amit B.", "rating": 4, "comment": "Oldest IIT with proud legacy. Campus life is vibrant and diverse.", "year": 2023 },
+        { "id": 2, "author": "Meera G.", "rating": 4, "comment": "Great research opportunities. The campus township is a unique experience.", "year": 2022 }
+      ],
+      "tags": ["Engineering", "IIT", "Oldest", "Large Campus"],
+      "examAccepted": ["JEE Advanced"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 5,
+      "name": "BITS Pilani",
+      "shortName": "BITS Pilani",
+      "location": "Pilani, Rajasthan",
+      "state": "Rajasthan",
+      "type": "Deemed",
+      "rating": 4.6,
+      "totalFees": 2000000,
+      "annualFees": 500000,
+      "established": 1964,
+      "ranking": {
+        "nirf": 25,
+        "qs_world": 801
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d3/BITS_Pilani-Logo.svg",
+      "overview": "BITS Pilani is one of India's top private engineering institutions. Famous for its Practice School program that provides real industry experience during the degree.",
+      "courses": [
+        { "name": "B.E. Computer Science", "duration": "4 years", "fees": 2000000, "seats": 180 },
+        { "name": "B.E. Electronics", "duration": "4 years", "fees": 2000000, "seats": 120 },
+        { "name": "B.Pharm", "duration": "4 years", "fees": 1800000, "seats": 80 },
+        { "name": "M.E. Software Systems", "duration": "2 years", "fees": 900000, "seats": 40 }
+      ],
+      "placements": {
+        "averagePackage": 1800000,
+        "highestPackage": 18000000,
+        "placementRate": 96,
+        "topRecruiters": ["Microsoft", "Google", "DE Shaw", "Goldman Sachs", "Uber"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Rohan C.", "rating": 5, "comment": "Practice School is a game-changer. Real industry exposure in the final year.", "year": 2023 },
+        { "id": 2, "author": "Ananya P.", "rating": 4, "comment": "Best private engineering college in India. Peer group quality is outstanding.", "year": 2023 }
+      ],
+      "tags": ["Engineering", "Private", "Practice School", "Top Private"],
+      "examAccepted": ["BITSAT"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": false
+    },
+    {
+      "id": 6,
+      "name": "National Institute of Technology Trichy",
+      "shortName": "NIT Trichy",
+      "location": "Tiruchirappalli, Tamil Nadu",
+      "state": "Tamil Nadu",
+      "type": "Government",
+      "rating": 4.5,
+      "totalFees": 520000,
+      "annualFees": 130000,
+      "established": 1964,
+      "ranking": {
+        "nirf": 9,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fd/NIT_Trichy_Logo.png",
+      "overview": "NIT Trichy is consistently ranked as the best NIT in India. It offers a strong academic environment with a focus on engineering and technology education.",
+      "courses": [
+        { "name": "B.Tech Computer Science", "duration": "4 years", "fees": 520000, "seats": 90 },
+        { "name": "B.Tech Mechanical Engineering", "duration": "4 years", "fees": 520000, "seats": 60 },
+        { "name": "B.Tech Civil Engineering", "duration": "4 years", "fees": 520000, "seats": 60 },
+        { "name": "M.Tech", "duration": "2 years", "fees": 280000, "seats": 30 }
+      ],
+      "placements": {
+        "averagePackage": 1400000,
+        "highestPackage": 14000000,
+        "placementRate": 92,
+        "topRecruiters": ["TCS", "Wipro", "L&T", "Samsung", "Infosys"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Subramanian V.", "rating": 4, "comment": "Best NIT in India. Great faculty and placement support.", "year": 2023 },
+        { "id": 2, "author": "Kavitha M.", "rating": 4, "comment": "Affordable fees with excellent placement record. Highly recommend.", "year": 2022 }
+      ],
+      "tags": ["Engineering", "NIT", "Government", "Top NIT"],
+      "examAccepted": ["JEE Mains"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 7,
+      "name": "Vellore Institute of Technology",
+      "shortName": "VIT Vellore",
+      "location": "Vellore, Tamil Nadu",
+      "state": "Tamil Nadu",
+      "type": "Deemed",
+      "rating": 4.2,
+      "totalFees": 1650000,
+      "annualFees": 412500,
+      "established": 1984,
+      "ranking": {
+        "nirf": 11,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c5/Vellore_Institute_of_Technology_seal_2017.png",
+      "overview": "VIT is one of India's largest private universities with a strong focus on industry-oriented education. Known for its FFCS (Fully Flexible Credit System) and large campus.",
+      "courses": [
+        { "name": "B.Tech Computer Science", "duration": "4 years", "fees": 1650000, "seats": 2000 },
+        { "name": "B.Tech CSE with AI & ML", "duration": "4 years", "fees": 1800000, "seats": 800 },
+        { "name": "B.Tech Electronics", "duration": "4 years", "fees": 1650000, "seats": 600 },
+        { "name": "MBA", "duration": "2 years", "fees": 800000, "seats": 240 }
+      ],
+      "placements": {
+        "averagePackage": 900000,
+        "highestPackage": 10000000,
+        "placementRate": 85,
+        "topRecruiters": ["TCS", "Cognizant", "Accenture", "Infosys", "Capgemini"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Preethi J.", "rating": 4, "comment": "Flexible credit system is a great advantage. Campus is beautiful.", "year": 2023 },
+        { "id": 2, "author": "Sathya K.", "rating": 3, "comment": "Huge intake means competition is tough. But exposure is decent.", "year": 2022 }
+      ],
+      "tags": ["Engineering", "Private", "Large Campus", "Flexible Curriculum"],
+      "examAccepted": ["VITEEE", "JEE Mains"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 8,
+      "name": "Manipal Institute of Technology",
+      "shortName": "MIT Manipal",
+      "location": "Manipal, Karnataka",
+      "state": "Karnataka",
+      "type": "Deemed",
+      "rating": 4.2,
+      "totalFees": 1800000,
+      "annualFees": 450000,
+      "established": 1957,
+      "ranking": {
+        "nirf": 30,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/33/MIT_Manipal_Logo.png",
+      "overview": "MIT Manipal is a premier private engineering institution known for its international exposure, modern infrastructure, and diverse student community.",
+      "courses": [
+        { "name": "B.Tech Computer Science", "duration": "4 years", "fees": 1800000, "seats": 300 },
+        { "name": "B.Tech Information Technology", "duration": "4 years", "fees": 1800000, "seats": 120 },
+        { "name": "B.Tech Biomedical Engineering", "duration": "4 years", "fees": 1800000, "seats": 60 },
+        { "name": "M.Tech", "duration": "2 years", "fees": 700000, "seats": 30 }
+      ],
+      "placements": {
+        "averagePackage": 1000000,
+        "highestPackage": 12000000,
+        "placementRate": 87,
+        "topRecruiters": ["Infosys", "Wipro", "Microsoft", "Accenture", "TCS"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Harsh B.", "rating": 4, "comment": "Great campus life. International opportunities are a plus.", "year": 2023 },
+        { "id": 2, "author": "Shruti N.", "rating": 4, "comment": "Amazing infrastructure. Manipal town itself is very student-friendly.", "year": 2022 }
+      ],
+      "tags": ["Engineering", "Private", "International", "Residential Campus"],
+      "examAccepted": ["MET", "JEE Mains"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 9,
+      "name": "Indian Institute of Management Ahmedabad",
+      "shortName": "IIM Ahmedabad",
+      "location": "Ahmedabad, Gujarat",
+      "state": "Gujarat",
+      "type": "Government",
+      "rating": 4.9,
+      "totalFees": 2500000,
+      "annualFees": 1250000,
+      "established": 1961,
+      "ranking": {
+        "nirf": 1,
+        "qs_world": 50
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/IIM_Ahmedabad_Logo.svg/200px-IIM_Ahmedabad_Logo.svg.png",
+      "overview": "IIM Ahmedabad is Asia's top business school and one of the world's most respected MBA programs. Known for its case-study methodology and exceptional alumni network.",
+      "courses": [
+        { "name": "MBA (PGP)", "duration": "2 years", "fees": 2500000, "seats": 380 },
+        { "name": "Executive MBA", "duration": "1 year", "fees": 3200000, "seats": 60 },
+        { "name": "PhD", "duration": "4-5 years", "fees": 200000, "seats": 20 }
+      ],
+      "placements": {
+        "averagePackage": 3200000,
+        "highestPackage": 100000000,
+        "placementRate": 100,
+        "topRecruiters": ["McKinsey", "BCG", "Bain", "Goldman Sachs", "Amazon"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Ravi S.", "rating": 5, "comment": "Life-changing experience. The case method transforms how you think about business.", "year": 2023 },
+        { "id": 2, "author": "Neha A.", "rating": 5, "comment": "Best MBA program in Asia. Alumni network is incredibly powerful.", "year": 2023 }
+      ],
+      "tags": ["MBA", "IIM", "Management", "Top B-School"],
+      "examAccepted": ["CAT"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 10,
+      "name": "Indian Institute of Management Bangalore",
+      "shortName": "IIM Bangalore",
+      "location": "Bengaluru, Karnataka",
+      "state": "Karnataka",
+      "type": "Government",
+      "rating": 4.8,
+      "totalFees": 2400000,
+      "annualFees": 1200000,
+      "established": 1973,
+      "ranking": {
+        "nirf": 2,
+        "qs_world": 55
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/IIMB_Logo.svg/200px-IIMB_Logo.svg.png",
+      "overview": "IIM Bangalore is located in India's Silicon Valley and is renowned for its entrepreneurship focus and technology management programs.",
+      "courses": [
+        { "name": "MBA (PGP)", "duration": "2 years", "fees": 2400000, "seats": 420 },
+        { "name": "Executive MBA (EPGP)", "duration": "1 year", "fees": 2900000, "seats": 70 },
+        { "name": "PhD", "duration": "4-5 years", "fees": 180000, "seats": 18 }
+      ],
+      "placements": {
+        "averagePackage": 3000000,
+        "highestPackage": 80000000,
+        "placementRate": 100,
+        "topRecruiters": ["Google", "McKinsey", "Amazon", "Flipkart", "Sequoia"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Deepak M.", "rating": 5, "comment": "Being in Bengaluru is a massive advantage. Startup culture is infectious.", "year": 2023 },
+        { "id": 2, "author": "Pooja R.", "rating": 5, "comment": "Excellent professors and peer group. The entrepreneurship cell is world-class.", "year": 2022 }
+      ],
+      "tags": ["MBA", "IIM", "Management", "Entrepreneurship"],
+      "examAccepted": ["CAT", "GMAT"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 11,
+      "name": "Delhi Technological University",
+      "shortName": "DTU",
+      "location": "New Delhi, Delhi",
+      "state": "Delhi",
+      "type": "Government",
+      "rating": 4.1,
+      "totalFees": 520000,
+      "annualFees": 130000,
+      "established": 1941,
+      "ranking": {
+        "nirf": 36,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b3/Delhi_Technological_University_logo.png",
+      "overview": "DTU, formerly Delhi College of Engineering, is one of Delhi's premier state engineering universities. Known for affordable fees, strong industry connections, and excellent placements.",
+      "courses": [
+        { "name": "B.Tech Computer Science", "duration": "4 years", "fees": 520000, "seats": 180 },
+        { "name": "B.Tech Software Engineering", "duration": "4 years", "fees": 520000, "seats": 120 },
+        { "name": "B.Tech Electronics", "duration": "4 years", "fees": 520000, "seats": 90 },
+        { "name": "M.Tech", "duration": "2 years", "fees": 200000, "seats": 40 }
+      ],
+      "placements": {
+        "averagePackage": 1200000,
+        "highestPackage": 11000000,
+        "placementRate": 88,
+        "topRecruiters": ["Microsoft", "Amazon", "Samsung", "TCS", "Deloitte"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Vivek S.", "rating": 4, "comment": "Best government college for Delhi students. Amazing value for money.", "year": 2023 },
+        { "id": 2, "author": "Nidhi T.", "rating": 4, "comment": "Delhi location means great internship and placement opportunities.", "year": 2022 }
+      ],
+      "tags": ["Engineering", "Government", "Delhi", "Affordable"],
+      "examAccepted": ["JEE Mains"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 12,
+      "name": "Christ University",
+      "shortName": "Christ University",
+      "location": "Bengaluru, Karnataka",
+      "state": "Karnataka",
+      "type": "Deemed",
+      "rating": 4.0,
+      "totalFees": 600000,
+      "annualFees": 200000,
+      "established": 1969,
+      "ranking": {
+        "nirf": 65,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Christ_University_logo.png/200px-Christ_University_logo.png",
+      "overview": "Christ University is a premier institution known for its liberal arts, commerce, and management programs. Located in Bangalore, it provides excellent holistic education.",
+      "courses": [
+        { "name": "B.Com (Honours)", "duration": "3 years", "fees": 180000, "seats": 200 },
+        { "name": "BBA", "duration": "3 years", "fees": 210000, "seats": 180 },
+        { "name": "BA Economics", "duration": "3 years", "fees": 150000, "seats": 120 },
+        { "name": "MBA", "duration": "2 years", "fees": 600000, "seats": 240 }
+      ],
+      "placements": {
+        "averagePackage": 650000,
+        "highestPackage": 4500000,
+        "placementRate": 78,
+        "topRecruiters": ["Deloitte", "EY", "KPMG", "HDFC Bank", "Axis Bank"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Mary J.", "rating": 4, "comment": "Great college for commerce and management. Faculty is very supportive.", "year": 2023 },
+        { "id": 2, "author": "Samuel T.", "rating": 4, "comment": "Discipline is strict but the education quality makes it worth it.", "year": 2022 }
+      ],
+      "tags": ["Commerce", "Management", "Private", "Arts"],
+      "examAccepted": ["CUET", "Christ Entrance Test"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 13,
+      "name": "Symbiosis Institute of Business Management",
+      "shortName": "SIBM Pune",
+      "location": "Pune, Maharashtra",
+      "state": "Maharashtra",
+      "type": "Deemed",
+      "rating": 4.2,
+      "totalFees": 2100000,
+      "annualFees": 1050000,
+      "established": 1978,
+      "ranking": {
+        "nirf": 18,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/26/Symbiosis_International_University_Logo.png",
+      "overview": "SIBM Pune is among India's top private B-schools. Known for its international tie-ups, cultural diversity, and strong MBA program with excellent ROI.",
+      "courses": [
+        { "name": "MBA", "duration": "2 years", "fees": 2100000, "seats": 180 },
+        { "name": "MBA Innovation & Entrepreneurship", "duration": "2 years", "fees": 2100000, "seats": 60 }
+      ],
+      "placements": {
+        "averagePackage": 1800000,
+        "highestPackage": 7000000,
+        "placementRate": 98,
+        "topRecruiters": ["KPMG", "Deloitte", "HUL", "P&G", "Nestle"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Gaurav B.", "rating": 4, "comment": "Top MBA outside IIMs. Placement record is consistent and strong.", "year": 2023 },
+        { "id": 2, "author": "Reshma P.", "rating": 4, "comment": "International exposure and the Pune location make it perfect for MBA.", "year": 2022 }
+      ],
+      "tags": ["MBA", "Management", "Private", "Pune"],
+      "examAccepted": ["SNAP"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": false
+    },
+    {
+      "id": 14,
+      "name": "Jadavpur University",
+      "shortName": "Jadavpur",
+      "location": "Kolkata, West Bengal",
+      "state": "West Bengal",
+      "type": "Government",
+      "rating": 4.4,
+      "totalFees": 100000,
+      "annualFees": 25000,
+      "established": 1955,
+      "ranking": {
+        "nirf": 12,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/60/Jadavpur_University_Logo.png",
+      "overview": "Jadavpur University is one of West Bengal's most prestigious institutions, known for exceptional faculty, research output, and ultra-affordable fees for state-merit students.",
+      "courses": [
+        { "name": "B.Tech Computer Science", "duration": "4 years", "fees": 100000, "seats": 60 },
+        { "name": "B.Tech Electronics", "duration": "4 years", "fees": 100000, "seats": 60 },
+        { "name": "B.Tech Electrical Engineering", "duration": "4 years", "fees": 100000, "seats": 60 },
+        { "name": "B.Sc Mathematics", "duration": "3 years", "fees": 30000, "seats": 40 }
+      ],
+      "placements": {
+        "averagePackage": 1100000,
+        "highestPackage": 10000000,
+        "placementRate": 85,
+        "topRecruiters": ["TCS", "Infosys", "Cognizant", "Wipro", "IBM"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Debabrata M.", "rating": 4, "comment": "Best value engineering education in India. Professors are world-class.", "year": 2023 },
+        { "id": 2, "author": "Tanushree G.", "rating": 5, "comment": "Fees are minimal but quality is premium. Highly recommended.", "year": 2022 }
+      ],
+      "tags": ["Engineering", "Government", "Affordable", "Research"],
+      "examAccepted": ["WBJEE"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 15,
+      "name": "Anna University",
+      "shortName": "Anna University",
+      "location": "Chennai, Tamil Nadu",
+      "state": "Tamil Nadu",
+      "type": "Government",
+      "rating": 4.1,
+      "totalFees": 200000,
+      "annualFees": 50000,
+      "established": 1978,
+      "ranking": {
+        "nirf": 14,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/13/Anna_University_Logo.png",
+      "overview": "Anna University is Tamil Nadu's premier technical university, affiliating over 500 colleges. The main campus in Chennai offers excellent engineering programs at affordable rates.",
+      "courses": [
+        { "name": "B.Tech Computer Science", "duration": "4 years", "fees": 200000, "seats": 120 },
+        { "name": "B.Tech Information Technology", "duration": "4 years", "fees": 200000, "seats": 60 },
+        { "name": "B.Tech Mechanical Engineering", "duration": "4 years", "fees": 200000, "seats": 60 },
+        { "name": "M.E.", "duration": "2 years", "fees": 100000, "seats": 30 }
+      ],
+      "placements": {
+        "averagePackage": 600000,
+        "highestPackage": 4000000,
+        "placementRate": 75,
+        "topRecruiters": ["TCS", "Infosys", "Wipro", "HCL", "Tech Mahindra"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Murugan S.", "rating": 4, "comment": "Affordable and reputed. Great for Tamil Nadu students seeking quality education.", "year": 2023 },
+        { "id": 2, "author": "Janani R.", "rating": 3, "comment": "Good university but placements could be better. Faculty is decent.", "year": 2022 }
+      ],
+      "tags": ["Engineering", "Government", "Affordable", "Tamil Nadu"],
+      "examAccepted": ["TNEA"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 16,
+      "name": "SRM Institute of Science and Technology",
+      "shortName": "SRM University",
+      "location": "Chennai, Tamil Nadu",
+      "state": "Tamil Nadu",
+      "type": "Deemed",
+      "rating": 3.9,
+      "totalFees": 1400000,
+      "annualFees": 350000,
+      "established": 1985,
+      "ranking": {
+        "nirf": 37,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/44/SRM_University_logo.png",
+      "overview": "SRM University is one of India's largest private universities, known for its modern infrastructure, strong industry connections, and diverse student body.",
+      "courses": [
+        { "name": "B.Tech Computer Science", "duration": "4 years", "fees": 1400000, "seats": 1500 },
+        { "name": "B.Tech AI & Machine Learning", "duration": "4 years", "fees": 1600000, "seats": 400 },
+        { "name": "B.Tech Biotechnology", "duration": "4 years", "fees": 1300000, "seats": 60 },
+        { "name": "MBA", "duration": "2 years", "fees": 700000, "seats": 300 }
+      ],
+      "placements": {
+        "averagePackage": 700000,
+        "highestPackage": 7000000,
+        "placementRate": 80,
+        "topRecruiters": ["TCS", "Cognizant", "Accenture", "HCL", "Capgemini"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Kartik V.", "rating": 3, "comment": "Good infrastructure. Placements are decent for IT sector.", "year": 2023 },
+        { "id": 2, "author": "Deepa N.", "rating": 4, "comment": "Campus is huge and well-maintained. Faculty quality varies by department.", "year": 2022 }
+      ],
+      "tags": ["Engineering", "Private", "Large Campus", "IT Focus"],
+      "examAccepted": ["SRMJEEE", "JEE Mains"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 17,
+      "name": "Amity University",
+      "shortName": "Amity",
+      "location": "Noida, Uttar Pradesh",
+      "state": "Uttar Pradesh",
+      "type": "Deemed",
+      "rating": 3.7,
+      "totalFees": 1600000,
+      "annualFees": 400000,
+      "established": 2005,
+      "ranking": {
+        "nirf": 55,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8b/Amity_University_logo.png",
+      "overview": "Amity University is a large private university known for its diverse program offerings, international collaborations, and modern infrastructure near Delhi.",
+      "courses": [
+        { "name": "B.Tech Computer Science", "duration": "4 years", "fees": 1600000, "seats": 600 },
+        { "name": "BBA", "duration": "3 years", "fees": 900000, "seats": 400 },
+        { "name": "B.Sc Psychology", "duration": "3 years", "fees": 600000, "seats": 100 },
+        { "name": "MBA", "duration": "2 years", "fees": 1200000, "seats": 200 }
+      ],
+      "placements": {
+        "averagePackage": 550000,
+        "highestPackage": 3500000,
+        "placementRate": 72,
+        "topRecruiters": ["TCS", "Wipro", "Deloitte", "HCL", "IBM"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Ashwin R.", "rating": 3, "comment": "Good infrastructure but fees are high for the placement outcomes.", "year": 2023 },
+        { "id": 2, "author": "Sonia M.", "rating": 4, "comment": "Lots of extracurricular activities and clubs. Faculty is mixed.", "year": 2022 }
+      ],
+      "tags": ["Engineering", "Management", "Private", "Delhi NCR"],
+      "examAccepted": ["AMITA", "JEE Mains", "CUET"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 18,
+      "name": "Presidency College Chennai",
+      "shortName": "Presidency Chennai",
+      "location": "Chennai, Tamil Nadu",
+      "state": "Tamil Nadu",
+      "type": "Government",
+      "rating": 4.0,
+      "totalFees": 30000,
+      "annualFees": 10000,
+      "established": 1840,
+      "ranking": {
+        "nirf": 48,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Presidency_College_%28Chennai%29_Logo.svg/200px-Presidency_College_%28Chennai%29_Logo.svg.png",
+      "overview": "One of India's oldest colleges, Presidency College Chennai offers exceptional arts and science programs at extremely affordable rates under the Tamil Nadu government.",
+      "courses": [
+        { "name": "B.Sc Mathematics", "duration": "3 years", "fees": 30000, "seats": 60 },
+        { "name": "B.Sc Physics", "duration": "3 years", "fees": 30000, "seats": 60 },
+        { "name": "BA Economics", "duration": "3 years", "fees": 24000, "seats": 80 },
+        { "name": "M.Sc Mathematics", "duration": "2 years", "fees": 20000, "seats": 30 }
+      ],
+      "placements": {
+        "averagePackage": 400000,
+        "highestPackage": 1500000,
+        "placementRate": 65,
+        "topRecruiters": ["State Bank of India", "LIC", "Railway", "TNPSC", "SSC"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Rajesh K.", "rating": 4, "comment": "Historic institution. Best for pure sciences at unbelievable cost.", "year": 2023 },
+        { "id": 2, "author": "Vanitha S.", "rating": 4, "comment": "Legacy institution with dedicated faculty. Research culture is growing.", "year": 2022 }
+      ],
+      "tags": ["Arts & Science", "Government", "Historic", "Affordable"],
+      "examAccepted": ["TNEA", "CUET"],
+      "hostelAvailable": false,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 19,
+      "name": "PSG College of Technology",
+      "shortName": "PSG Tech",
+      "location": "Coimbatore, Tamil Nadu",
+      "state": "Tamil Nadu",
+      "type": "Private-Aided",
+      "rating": 4.3,
+      "totalFees": 500000,
+      "annualFees": 125000,
+      "established": 1951,
+      "ranking": {
+        "nirf": 58,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/79/PSG_College_of_Technology_Logo.png",
+      "overview": "PSG Tech is one of Tamil Nadu's top autonomous engineering colleges, known for its industry-integrated curriculum and excellent placement record in Coimbatore's manufacturing and IT sectors.",
+      "courses": [
+        { "name": "B.E. Computer Science", "duration": "4 years", "fees": 500000, "seats": 120 },
+        { "name": "B.E. Electronics & Communication", "duration": "4 years", "fees": 500000, "seats": 120 },
+        { "name": "B.E. Mechanical Engineering", "duration": "4 years", "fees": 500000, "seats": 80 },
+        { "name": "M.E.", "duration": "2 years", "fees": 200000, "seats": 30 }
+      ],
+      "placements": {
+        "averagePackage": 750000,
+        "highestPackage": 7000000,
+        "placementRate": 90,
+        "topRecruiters": ["Infosys", "TCS", "L&T", "CTS", "Robert Bosch"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Manivannan K.", "rating": 4, "comment": "Top college in Coimbatore. Industry tie-ups are excellent.", "year": 2023 },
+        { "id": 2, "author": "Sangeetha A.", "rating": 4, "comment": "Good faculty and strong alumni network in manufacturing sector.", "year": 2022 }
+      ],
+      "tags": ["Engineering", "Private-Aided", "Tamil Nadu", "Autonomous"],
+      "examAccepted": ["TNEA"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 20,
+      "name": "National Law School of India University",
+      "shortName": "NLSIU Bangalore",
+      "location": "Bengaluru, Karnataka",
+      "state": "Karnataka",
+      "type": "Government",
+      "rating": 4.7,
+      "totalFees": 700000,
+      "annualFees": 140000,
+      "established": 1987,
+      "ranking": {
+        "nirf": 1,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/52/NLSIU_Logo.png",
+      "overview": "NLSIU Bangalore is India's #1 law school. It pioneered the 5-year integrated LLB program and has produced India's top judges, lawyers, and legal scholars.",
+      "courses": [
+        { "name": "BA LLB (Hons)", "duration": "5 years", "fees": 700000, "seats": 80 },
+        { "name": "LLM", "duration": "1 year", "fees": 200000, "seats": 30 },
+        { "name": "PhD", "duration": "3-5 years", "fees": 100000, "seats": 10 }
+      ],
+      "placements": {
+        "averagePackage": 1600000,
+        "highestPackage": 8000000,
+        "placementRate": 95,
+        "topRecruiters": ["AZB & Partners", "Cyril Amarchand", "Trilegal", "Shardul Amarchand", "S&R Associates"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Ananya V.", "rating": 5, "comment": "Pinnacle of legal education in India. Clerkship and litigation opportunities are unmatched.", "year": 2023 },
+        { "id": 2, "author": "Rohan T.", "rating": 5, "comment": "Best law college in the country. The peer group elevates your thinking.", "year": 2022 }
+      ],
+      "tags": ["Law", "Government", "NLU", "Top Ranked"],
+      "examAccepted": ["CLAT"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 21,
+      "name": "Coimbatore Institute of Technology",
+      "shortName": "CIT Coimbatore",
+      "location": "Coimbatore, Tamil Nadu",
+      "state": "Tamil Nadu",
+      "type": "Government-Aided",
+      "rating": 4.0,
+      "totalFees": 280000,
+      "annualFees": 70000,
+      "established": 1956,
+      "ranking": {
+        "nirf": 92,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/8b/CIT_coimbatore_logo.jpg",
+      "overview": "CIT Coimbatore is one of the oldest and most reputed engineering colleges in Tamil Nadu, known for its quality education and strong alumni network in the region.",
+      "courses": [
+        { "name": "B.E. Computer Science", "duration": "4 years", "fees": 280000, "seats": 90 },
+        { "name": "B.E. Mechanical Engineering", "duration": "4 years", "fees": 280000, "seats": 60 },
+        { "name": "B.E. Electronics & Communication", "duration": "4 years", "fees": 280000, "seats": 60 },
+        { "name": "M.E.", "duration": "2 years", "fees": 120000, "seats": 18 }
+      ],
+      "placements": {
+        "averagePackage": 550000,
+        "highestPackage": 3500000,
+        "placementRate": 82,
+        "topRecruiters": ["TCS", "Infosys", "CTS", "L&T", "KGISL"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Balaji S.", "rating": 4, "comment": "Affordable and quality education in Coimbatore. Strong alumni support.", "year": 2023 },
+        { "id": 2, "author": "Priya M.", "rating": 4, "comment": "Good faculty and campus environment. Great value college.", "year": 2022 }
+      ],
+      "tags": ["Engineering", "Government-Aided", "Coimbatore", "Affordable"],
+      "examAccepted": ["TNEA"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 22,
+      "name": "Amrita Vishwa Vidyapeetham",
+      "shortName": "Amrita University",
+      "location": "Coimbatore, Tamil Nadu",
+      "state": "Tamil Nadu",
+      "type": "Deemed",
+      "rating": 4.1,
+      "totalFees": 1200000,
+      "annualFees": 300000,
+      "established": 1994,
+      "ranking": {
+        "nirf": 7,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ab/Amrita_University_logo.png",
+      "overview": "Amrita is a top-ranked deemed university with strong research output. Known for its focus on applied sciences, engineering, and social impact research.",
+      "courses": [
+        { "name": "B.Tech Computer Science", "duration": "4 years", "fees": 1200000, "seats": 300 },
+        { "name": "B.Tech AI & Robotics", "duration": "4 years", "fees": 1400000, "seats": 120 },
+        { "name": "B.Sc Nursing", "duration": "4 years", "fees": 600000, "seats": 100 },
+        { "name": "M.Tech", "duration": "2 years", "fees": 500000, "seats": 40 }
+      ],
+      "placements": {
+        "averagePackage": 800000,
+        "highestPackage": 6000000,
+        "placementRate": 84,
+        "topRecruiters": ["TCS", "Infosys", "IBM", "Accenture", "Bosch"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Lakshmi P.", "rating": 4, "comment": "Strong research culture. Spiritual campus environment is unique.", "year": 2023 },
+        { "id": 2, "author": "Siva K.", "rating": 4, "comment": "Good NIRF ranking and solid placement record.", "year": 2022 }
+      ],
+      "tags": ["Engineering", "Deemed", "Research", "Multi-Campus"],
+      "examAccepted": ["AEEE", "JEE Mains"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 23,
+      "name": "National Institute of Technology Surathkal",
+      "shortName": "NIT Surathkal",
+      "location": "Mangaluru, Karnataka",
+      "state": "Karnataka",
+      "type": "Government",
+      "rating": 4.4,
+      "totalFees": 500000,
+      "annualFees": 125000,
+      "established": 1960,
+      "ranking": {
+        "nirf": 15,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/18/NIT_Surathkal_logo.png",
+      "overview": "NIT Surathkal is one of the top NITs, known for its sea-side campus, strong technical culture, and excellent alumni network in the IT sector.",
+      "courses": [
+        { "name": "B.Tech Computer Science", "duration": "4 years", "fees": 500000, "seats": 70 },
+        { "name": "B.Tech Electronics", "duration": "4 years", "fees": 500000, "seats": 50 },
+        { "name": "B.Tech Chemical Engineering", "duration": "4 years", "fees": 500000, "seats": 40 },
+        { "name": "M.Tech", "duration": "2 years", "fees": 240000, "seats": 25 }
+      ],
+      "placements": {
+        "averagePackage": 1300000,
+        "highestPackage": 12000000,
+        "placementRate": 91,
+        "topRecruiters": ["Microsoft", "Oracle", "Infosys", "Amazon", "ISRO"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Chethan R.", "rating": 4, "comment": "Beautiful coastal campus. Strong tech culture and solid placements.", "year": 2023 },
+        { "id": 2, "author": "Pallavi S.", "rating": 4, "comment": "Top NIT in Karnataka. Excellent for core engineering and IT careers.", "year": 2022 }
+      ],
+      "tags": ["Engineering", "NIT", "Government", "Coastal Campus"],
+      "examAccepted": ["JEE Mains"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 24,
+      "name": "Thapar Institute of Engineering and Technology",
+      "shortName": "Thapar University",
+      "location": "Patiala, Punjab",
+      "state": "Punjab",
+      "type": "Deemed",
+      "rating": 4.1,
+      "totalFees": 1700000,
+      "annualFees": 425000,
+      "established": 1956,
+      "ranking": {
+        "nirf": 27,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ab/Thapar_University_logo.png",
+      "overview": "Thapar is a top private deemed university known for its engineering programs, research culture, and strong placements in IT and core sectors.",
+      "courses": [
+        { "name": "B.E. Computer Science", "duration": "4 years", "fees": 1700000, "seats": 270 },
+        { "name": "B.E. Electronics", "duration": "4 years", "fees": 1700000, "seats": 180 },
+        { "name": "B.E. Mechanical Engineering", "duration": "4 years", "fees": 1700000, "seats": 150 },
+        { "name": "MBA", "duration": "2 years", "fees": 800000, "seats": 60 }
+      ],
+      "placements": {
+        "averagePackage": 900000,
+        "highestPackage": 8000000,
+        "placementRate": 86,
+        "topRecruiters": ["Samsung", "TCS", "Wipro", "Infosys", "Qualcomm"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Gurpreet S.", "rating": 4, "comment": "Best engineering college in Punjab. Strong alumni and decent placements.", "year": 2023 },
+        { "id": 2, "author": "Prabhleen K.", "rating": 4, "comment": "Good faculty and research labs. Campus life is vibrant.", "year": 2022 }
+      ],
+      "tags": ["Engineering", "Deemed", "Punjab", "Research"],
+      "examAccepted": ["JEE Mains", "THAPAR Entrance"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 25,
+      "name": "Osmania University",
+      "shortName": "Osmania University",
+      "location": "Hyderabad, Telangana",
+      "state": "Telangana",
+      "type": "Government",
+      "rating": 3.9,
+      "totalFees": 120000,
+      "annualFees": 40000,
+      "established": 1918,
+      "ranking": {
+        "nirf": 35,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Osmania_University.svg/200px-Osmania_University.svg.png",
+      "overview": "Osmania University is one of India's oldest and most historic universities, offering diverse programs at highly affordable fees under the Telangana state government.",
+      "courses": [
+        { "name": "B.Sc Computer Science", "duration": "3 years", "fees": 120000, "seats": 80 },
+        { "name": "BA English Literature", "duration": "3 years", "fees": 90000, "seats": 100 },
+        { "name": "B.Com", "duration": "3 years", "fees": 90000, "seats": 120 },
+        { "name": "MBA", "duration": "2 years", "fees": 160000, "seats": 60 }
+      ],
+      "placements": {
+        "averagePackage": 400000,
+        "highestPackage": 2000000,
+        "placementRate": 60,
+        "topRecruiters": ["TCS", "Infosys", "State Government", "SSC", "UPSC"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Venkat R.", "rating": 4, "comment": "Historic university with beautiful heritage campus. Very affordable.", "year": 2023 },
+        { "id": 2, "author": "Sahithi P.", "rating": 3, "comment": "Good arts and science programs. Placement support could be stronger.", "year": 2022 }
+      ],
+      "tags": ["Arts & Science", "Government", "Historic", "Affordable"],
+      "examAccepted": ["TS EAMCET", "CUET"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 26,
+      "name": "Institute of Management Technology Ghaziabad",
+      "shortName": "IMT Ghaziabad",
+      "location": "Ghaziabad, Uttar Pradesh",
+      "state": "Uttar Pradesh",
+      "type": "Private",
+      "rating": 4.0,
+      "totalFees": 1900000,
+      "annualFees": 950000,
+      "established": 1980,
+      "ranking": {
+        "nirf": 28,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f7/IMT_Ghaziabad_logo.png",
+      "overview": "IMT Ghaziabad is one of India's oldest and most respected B-schools, known for its strong industry connections, diverse student body, and consistent placement record.",
+      "courses": [
+        { "name": "MBA", "duration": "2 years", "fees": 1900000, "seats": 360 },
+        { "name": "Executive PGDM", "duration": "1 year", "fees": 1500000, "seats": 80 }
+      ],
+      "placements": {
+        "averagePackage": 1400000,
+        "highestPackage": 4500000,
+        "placementRate": 97,
+        "topRecruiters": ["Deloitte", "KPMG", "HUL", "ITC", "P&G"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Mohit G.", "rating": 4, "comment": "Solid MBA program with consistent placements. Great faculty connections.", "year": 2023 },
+        { "id": 2, "author": "Richa V.", "rating": 4, "comment": "One of the top 10 B-schools in India. Highly worth it.", "year": 2022 }
+      ],
+      "tags": ["MBA", "Management", "Private", "Delhi NCR"],
+      "examAccepted": ["CAT", "XAT", "GMAT"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": false
+    },
+    {
+      "id": 27,
+      "name": "Birla Institute of Technology Mesra",
+      "shortName": "BIT Mesra",
+      "location": "Ranchi, Jharkhand",
+      "state": "Jharkhand",
+      "type": "Deemed",
+      "rating": 3.9,
+      "totalFees": 1100000,
+      "annualFees": 275000,
+      "established": 1955,
+      "ranking": {
+        "nirf": 43,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/70/BIT_Mesra_logo.png",
+      "overview": "BIT Mesra is a top private deemed university in Eastern India known for its engineering and technology programs, serene campus environment, and growing research output.",
+      "courses": [
+        { "name": "B.Tech Computer Science", "duration": "4 years", "fees": 1100000, "seats": 120 },
+        { "name": "B.Tech Electronics", "duration": "4 years", "fees": 1100000, "seats": 80 },
+        { "name": "B.Tech Petroleum Engineering", "duration": "4 years", "fees": 1100000, "seats": 40 },
+        { "name": "MCA", "duration": "3 years", "fees": 450000, "seats": 30 }
+      ],
+      "placements": {
+        "averagePackage": 800000,
+        "highestPackage": 6000000,
+        "placementRate": 82,
+        "topRecruiters": ["TCS", "Infosys", "ONGC", "CTS", "HCL"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Akash C.", "rating": 4, "comment": "Serene campus. Good engineering education for East India students.", "year": 2023 },
+        { "id": 2, "author": "Trishna D.", "rating": 3, "comment": "Average placements but good infrastructure. Location can be a challenge.", "year": 2022 }
+      ],
+      "tags": ["Engineering", "Deemed", "Eastern India", "Research"],
+      "examAccepted": ["JEE Mains", "BIT Mesra Entrance"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 28,
+      "name": "Loyola College Chennai",
+      "shortName": "Loyola Chennai",
+      "location": "Chennai, Tamil Nadu",
+      "state": "Tamil Nadu",
+      "type": "Private-Aided",
+      "rating": 4.2,
+      "totalFees": 150000,
+      "annualFees": 50000,
+      "established": 1925,
+      "ranking": {
+        "nirf": 52,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3f/Loyola_College%2C_Chennai_crest.png",
+      "overview": "Loyola College is Chennai's premier arts and science college, known for exceptional commerce, economics, and science programs with a strong value-based education philosophy.",
+      "courses": [
+        { "name": "B.Com (Corporate Secretaryship)", "duration": "3 years", "fees": 150000, "seats": 80 },
+        { "name": "B.Sc Computer Science", "duration": "3 years", "fees": 150000, "seats": 60 },
+        { "name": "BA Economics", "duration": "3 years", "fees": 120000, "seats": 80 },
+        { "name": "M.Sc Mathematics", "duration": "2 years", "fees": 100000, "seats": 30 }
+      ],
+      "placements": {
+        "averagePackage": 500000,
+        "highestPackage": 3000000,
+        "placementRate": 73,
+        "topRecruiters": ["HDFC Bank", "ICICI Bank", "Deloitte", "EY", "Cognizant"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Anthony R.", "rating": 4, "comment": "Best arts college in Chennai. Alumni network is strong in finance sector.", "year": 2023 },
+        { "id": 2, "author": "Christy M.", "rating": 4, "comment": "Value-based education is commendable. Faculty is excellent.", "year": 2022 }
+      ],
+      "tags": ["Arts & Science", "Private-Aided", "Heritage", "Chennai"],
+      "examAccepted": ["CUET", "Loyola Entrance"],
+      "hostelAvailable": false,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 29,
+      "name": "Pune Institute of Computer Technology",
+      "shortName": "PICT Pune",
+      "location": "Pune, Maharashtra",
+      "state": "Maharashtra",
+      "type": "Private",
+      "rating": 4.3,
+      "totalFees": 600000,
+      "annualFees": 150000,
+      "established": 1983,
+      "ranking": {
+        "nirf": 88,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/37/PICT_Logo.png",
+      "overview": "PICT Pune is Pune's top autonomous engineering college for computer science. Consistently ranked among Maharashtra's best colleges for IT placements.",
+      "courses": [
+        { "name": "B.E. Computer Engineering", "duration": "4 years", "fees": 600000, "seats": 360 },
+        { "name": "B.E. Information Technology", "duration": "4 years", "fees": 600000, "seats": 120 },
+        { "name": "M.E. Computer Engineering", "duration": "2 years", "fees": 280000, "seats": 30 }
+      ],
+      "placements": {
+        "averagePackage": 850000,
+        "highestPackage": 8000000,
+        "placementRate": 93,
+        "topRecruiters": ["Persistent Systems", "Infosys", "TCS", "Cognizant", "Barclays"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Tejas M.", "rating": 4, "comment": "Best CS college in Pune outside IIT/NIT. Placement record is excellent.", "year": 2023 },
+        { "id": 2, "author": "Snehal J.", "rating": 5, "comment": "Great faculty and peer group. Perfect for IT careers.", "year": 2022 }
+      ],
+      "tags": ["Engineering", "Private", "CS Focus", "Pune"],
+      "examAccepted": ["MHT CET", "JEE Mains"],
+      "hostelAvailable": false,
+      "scholarshipAvailable": true
+    },
+    {
+      "id": 30,
+      "name": "Indian Statistical Institute",
+      "shortName": "ISI Kolkata",
+      "location": "Kolkata, West Bengal",
+      "state": "West Bengal",
+      "type": "Government",
+      "rating": 4.7,
+      "totalFees": 80000,
+      "annualFees": 20000,
+      "established": 1931,
+      "ranking": {
+        "nirf": 8,
+        "qs_world": null
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/ISI_Kolkata_Logo.svg/200px-ISI_Kolkata_Logo.svg.png",
+      "overview": "ISI Kolkata is the world's finest institution for statistics and data science, founded by the legendary P.C. Mahalanobis. Extremely selective admission with government stipends.",
+      "courses": [
+        { "name": "B.Stat (Hons)", "duration": "3 years", "fees": 80000, "seats": 40 },
+        { "name": "B.Math (Hons)", "duration": "3 years", "fees": 80000, "seats": 22 },
+        { "name": "M.Stat", "duration": "2 years", "fees": 60000, "seats": 50 },
+        { "name": "M.Tech CS", "duration": "2 years", "fees": 60000, "seats": 30 }
+      ],
+      "placements": {
+        "averagePackage": 2000000,
+        "highestPackage": 15000000,
+        "placementRate": 99,
+        "topRecruiters": ["Google", "Amazon", "Morgan Stanley", "Goldman Sachs", "ISRO"]
+      },
+      "reviews": [
+        { "id": 1, "author": "Soumya C.", "rating": 5, "comment": "World-class statistics education. Stipend makes it almost free. Dream college.", "year": 2023 },
+        { "id": 2, "author": "Arnab B.", "rating": 5, "comment": "Elitist but worth every bit. The best place for pure math and data science.", "year": 2022 }
+      ],
+      "tags": ["Statistics", "Mathematics", "Government", "Highly Selective"],
+      "examAccepted": ["ISI Admission Test"],
+      "hostelAvailable": true,
+      "scholarshipAvailable": true
+    }
+  ]
+}
