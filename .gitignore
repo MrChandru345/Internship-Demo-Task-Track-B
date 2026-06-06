@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+# Submission/private notes
+AI Software Engineer Internship.pdf
+projectexplanation.md
+projectexplanation.ms
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
